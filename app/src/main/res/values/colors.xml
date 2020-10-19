@@ -3,6 +3,7 @@
     <color name="colorPrimary">#7AB1FF</color>
     <color name="colorPrimaryDark">#5199FF</color>
     <color name="colorAccent">#FFFFFF</color>
+    <color name="colorGray">#9AA8A8A8</color>
 
 
     <!-- Material DEFAULT colors -->
