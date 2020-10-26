@@ -10,4 +10,5 @@
     <dimen name="smallest_text_size">12sp</dimen>
     <dimen name="ripple_effect_rectangle_radius">4dp</dimen>
     <dimen name="settings_view_margin_top">4dp</dimen>
+    <dimen name="appPadding">8dp</dimen>
 </resources>

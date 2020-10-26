@@ -133,7 +133,7 @@
             style="@style/mainText" />
 
         <TextView
-            android:id="@+id/settings_username_number"
+            android:id="@+id/settings_username_label"
             android:text="@string/settings_label_username"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -145,7 +145,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/settings_view_margin_top"
-            app:layout_constraintTop_toBottomOf="@id/settings_username_number"
+            app:layout_constraintTop_toBottomOf="@id/settings_username_label"
             style="@style/settingsDivider" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -169,7 +169,7 @@
             style="@style/mainText" />
 
         <TextView
-            android:id="@+id/settings_bio_number"
+            android:id="@+id/settings_bio_label"
             android:text="@string/settings_label_bio"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -181,7 +181,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/settings_view_margin_top"
-            app:layout_constraintTop_toBottomOf="@id/settings_bio_number"
+            app:layout_constraintTop_toBottomOf="@id/settings_bio_label"
             style="@style/settingsDivider" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.EnterCodeFragment">
+
+    <ImageView
+        android:id="@+id/register_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/register_image"
+        android:layout_margin="@dimen/horisontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/register_enter_code_text"
+        android:text="@string/register_enter_the_code"
+        style="@style/mainText"
+        android:gravity="center"
+        android:layout_margin="@dimen/horisontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_image"/>
+
+    <TextView
+        android:id="@+id/register_enter_code_subtext"
+        android:text="@string/register_text_message_we_sent"
+        style="@style/subText"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/horisontal_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_enter_code_text"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/register_enter_code"
+        style="@style/editTextStyle"
+        android:layout_marginTop="16dp"
+        android:hint="@string/register_code_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_enter_code_subtext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

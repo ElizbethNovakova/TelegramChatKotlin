@@ -7,6 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:colorBackground">@color/colorAccent</item>
         <item name="popupTheme">@style/settingsMenuStyle</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
 
         <!-- MaterialDrawer specific values -->
         <item name="material_drawer_background">@color/material_drawer_background</item>
@@ -60,6 +61,17 @@
 
     <style name="settingsMenuStyle" parent="Theme.AppCompat.Light">
         <item name="background">@color/colorAccent</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/material_drawer_primary_text</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:padding">@dimen/appPadding</item>
+        <item name="android:layout_margin">@dimen/horisontal_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
     </style>
 
 </resources>

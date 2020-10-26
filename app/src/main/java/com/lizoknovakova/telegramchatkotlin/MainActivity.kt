@@ -1,11 +1,15 @@
 package com.lizoknovakova.telegramchatkotlin
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import com.lizoknovakova.telegramchatkotlin.activities.RegisterActivity
 import com.lizoknovakova.telegramchatkotlin.databinding.ActivityMainBinding
 import com.lizoknovakova.telegramchatkotlin.ui.fragments.ChatsFragment
 import com.lizoknovakova.telegramchatkotlin.ui.objects.Drawer
+import com.lizoknovakova.telegramchatkotlin.utilits.replaceActivity
+import com.lizoknovakova.telegramchatkotlin.utilits.replaceFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,13 +35,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initFunc() {
-        setSupportActionBar(mToolbar)
-        mDrawer.create()
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.chatsContainer,
-                ChatsFragment()
-            ).commit()
-
+        if(false){
+            setSupportActionBar(mToolbar)
+            mDrawer.create()
+            replaceFragment(ChatsFragment())
+        } else {
+            replaceActivity(RegisterActivity())
+        }
     }
 
 

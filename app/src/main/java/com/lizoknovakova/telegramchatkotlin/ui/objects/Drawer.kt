@@ -96,7 +96,7 @@ class Drawer(val mainActivity: AppCompatActivity, val toolbar: Toolbar){
                     when(position){
                         7 -> mainActivity.supportFragmentManager.beginTransaction()
                             .addToBackStack(null)
-                            .replace(R.id.chatsContainer,
+                            .replace(R.id.dataContainer,
                                 SettingsFragment()
                             ).commit()
                     }
