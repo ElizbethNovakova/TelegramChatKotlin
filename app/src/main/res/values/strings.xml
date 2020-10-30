@@ -11,6 +11,7 @@
     <string name="settings_label_bio">Add a few words about yourself</string>
     <string name="settings_menu_change_name">Change name</string>
     <string name="settings_menu_exit">Exit</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="register_enter_the_code">Enter the code</string>
@@ -18,5 +19,6 @@
     <string name="register_code_hint">_ _ _ _ _ _</string>
     <string name="register_message_to_enter_number">Enter your phone number</string>
     <string name="register_text_your_phone">Your phone number</string>
+    <string name="hint_write_your_phone_number">Write your phone number</string>
 
 </resources>

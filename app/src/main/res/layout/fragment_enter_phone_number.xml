@@ -12,6 +12,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:inputType="phone"
+        android:hint="@string/hint_write_your_phone_number"
         style="@style/editTextStyle" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386407959230",
+    "firebase_url": "https://telegramchatkotlin.firebaseio.com",
+    "project_id": "telegramchatkotlin",
+    "storage_bucket": "telegramchatkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386407959230:android:75303d954640368d12ecef",
+        "android_client_info": {
+          "package_name": "com.lizoknovakova.telegramchatkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386407959230-d61ja4dhei5m1smej1bfi7ccu892iinf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lizoknovakova.telegramchatkotlin",
+            "certificate_hash": "c6b9a5731f1d51a5d43d50ae9e4ccf7aeaaab124"
+          }
+        },
+        {
+          "client_id": "386407959230-f58tchoiciuit9d5oth2097neevi4k6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaX1V_WxNQfqOI7ycj5aIxtTMp52_i5_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386407959230-f58tchoiciuit9d5oth2097neevi4k6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
